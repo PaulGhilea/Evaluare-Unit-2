@@ -1,0 +1,117 @@
+body{
+	margin-top: 120px;
+  margin-bottom: 30px;
+  margin-right: 40px;
+  margin-left: 70px;
+}
+#chenar{
+	background-color: lightgray;
+	background-position: center center;
+    border: 2px;
+	border-color: #808080;
+	border-style: solid;
+	width: 100%;
+}
+img{
+    opacity: 85%;
+	background-color: white;
+}
+h1{
+ color:#D3D3D3;
+ font-size: 50px;
+ text-align: right;
+ font-family: Arial;
+ background: #808080;
+ border: 7px black;
+ border-style: solid;
+ text-align: right;
+ }
+p{
+ color: #808080;
+ font-size:15px;
+ text-align:right;
+ }
+table,tr,td,th{
+ border: 4px;
+ border-color: black;
+ border-style: double;
+ text-align:center;
+ border-collapse: collapse;
+  }
+ table
+ {
+	 width: 80%;
+ }
+h2 
+{
+ color: #A9A9A9;
+ font-size: 35px;
+font-family: Times New Roman;
+font-style: italic;
+ text-align: right;
+ }
+ #caracteristici
+ {
+	 text-align:center
+ }
+ div.parent {
+	text-align: center;
+	}
+ul { 
+	display: inline-block; 
+	text-align: center; 
+	}
+
+#resurse{
+ color: #A9A9A9;
+ font-size: 35px;
+font-family:Times New Roman;
+font-style: italic;
+ text-align: right;
+} 
+  
+* {box-sizing: border-box;}
+body {font-family: Times New Roman; font-style: italic}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  background-color: #8f8f8f;
+}
+
+.dot {
+  height: 19px;
+  width: 19px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active {
+  background-color: #8f8f8f;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
